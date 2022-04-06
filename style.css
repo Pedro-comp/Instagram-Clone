@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #FAFAFA;
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    display: flex;
+    width: 300px;
+    height: 35px;
+    margin-bottom: 10px;
+    border: 1px solid #c5c5c5;
+    border-radius: 3px;
+    padding-left: 7px;
+    padding-right: -7px;
+    background-color: #FAFAFA;
+}
+
+input::placeholder {
+    font-size: 12px;
+}
+
+button {
+    width: 300px;
+    height: 30px;
+    border: 0;
+    border-radius: 5px;
+    background-color: #4cb6fd;
+    color: white;
+    margin: 10px 0px 0px 0px;
+}
+
+
+
+.instagram-wrapper {
+    display: flex;
+    align-items: center; /* Alinhamento vertical*/
+    justify-content: start; /* Alinhamento horizontal*/
+    width: 60%;
+    height: 100vh;
+}
+
+.celular {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 3%;
+    width: 40%;
+}
+
+.celular > img {
+    height: 45rem;
+}
+
+.insta-logo{
+    height: 4rem;
+    margin-bottom: 7%;
+}
+
+.formulario {
+    display: flex;
+    align-items: center; /* vertical */
+    justify-content:center; /* horizontal */
+    flex-direction: column;
+}
+
+.facebook {
+    display: flex;
+    justify-content: center;
+    margin: 3% 2% 5% 0;
+    font-size: 13px;
+}
+
+.facebook > img {
+    width: 5%;
+    margin-right: 2%;
+}
+
+.esqueceu {
+    font-size: 12px;
+    color: #385185;
+}
+
+.ou-div > p {
+    font-size: 13px;
+    font-size: 13px;
+    color: #a0a0a0;
+    font-weight: bold;
+}
+
+.forma1, .forma2 {
+    background-color: #b8b8b8;
+    width: 130px;
+    height: 0.1px;
+    margin: 0 10px;
+}
+
+.ou-div {
+    margin: 5% 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grupo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    width: 70%;
+    padding: 1.3rem 0;
+    border: 1px solid lightgray;
+    margin-bottom: 3%;
+}
+
+.grupo:nth-child(1) {
+    height: 30rem;
+    min-height: 19rem;
+    padding-top: 40px;
+}
+
+.grupo:nth-child(2) {
+    padding: 1.3rem 6.2rem;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.cadastrar {
+    color: #0099ff;
+    font-weight: 400;
+}
+
+.dir {
+    display: flex;
+    flex-direction: column;
+}
+
+.apple {
+    width: 35%;
+    margin: 10px 10px 0px 10px;
+}
+
+.download {
+    display: inline-block;
+    text-align: center;
+}
+
+.get-app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+}
